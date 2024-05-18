@@ -5,7 +5,7 @@ import tensorflow as tf
 # from tensorflow.keras.applications.vgg16 import preprocess_input
 # from tensorflow.keras.preprocessing.image import img_to_array
 
-model = tf.keras.models.load_model("C:\Project\covid detection webapp\model(with-vgg16).h5")
+model = tf.keras.models.load_model("model_file_path")
 
 def preprocess_image(image):
     image = image.resize((224, 224))
